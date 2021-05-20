@@ -16,7 +16,7 @@ import java.util.Map;
  */
 public class DateUtil {
 
-    private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(DateUtil.class);
 
     private static final String DATE_FORMAT = "yyyy-MM-dd";
     private static final String DATETIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
@@ -57,7 +57,7 @@ public class DateUtil {
         try {
             return getDateFormat(pattern).parse(dateStr);
         } catch (Exception e) {
-            logger.warn("日期转换失败");
+            LOGGER.warn("日期转换失败");
             return null;
         }
     }
