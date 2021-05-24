@@ -13,7 +13,7 @@ public class FileUtil {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(FileUtil.class);
 
-    public boolean deleteRecursively(File root) {
+    public static boolean deleteRecursively(File root) {
         if (null != root && root.exists()) {
             if (root.isDirectory()) {
                 File[] childFiles = root.listFiles();
