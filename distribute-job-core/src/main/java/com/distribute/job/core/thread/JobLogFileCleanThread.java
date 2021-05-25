@@ -77,7 +77,7 @@ public class JobLogFileCleanThread {
         localThread.start();
     }
 
-    public void stop() {
+    public void toStop() {
         toStop = true;
         if (null == localThread) {
             return;
