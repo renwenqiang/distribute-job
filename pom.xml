@@ -10,6 +10,7 @@
     <modules>
         <module>distribute-job-core</module>
         <module>distribute-job-executor-samples</module>
+        <module>distribute-job-admin</module>
     </modules>
     <packaging>pom</packaging>
 

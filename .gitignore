@@ -1,4 +1,4 @@
 .idea
 .gitignore
-distribute-job.iml
-distribute-job-core/target
+*.iml
+**/target
